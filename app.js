@@ -17,7 +17,7 @@ $(document).ready(function () {
     });
 
 
-    $("#btn").click(function (e) {
+    $(".btn").click(function (e) {
         e.preventDefault();
         let url = `https://api.openweathermap.org/data/2.5/weather?q=${$("#myWeather").val()}&appid=99f9d6cec44daf9e42341c9b70439bff`;
         async function myweather() {
